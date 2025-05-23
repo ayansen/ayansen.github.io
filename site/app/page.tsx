@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <SiteLayout>
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container grid gap-8 md:grid-cols-2 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
@@ -28,7 +28,8 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
               <Image
-                src="https://media.licdn.com/dms/image/v2/C4D03AQH0-Wfyu6_s_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517578024080?e=1753315200&v=beta&t=vwSiFLReT44y7ecwKuy7_u4PrdHkdmx53LDkkFTbP0A"
+                
+                src="/images/profile.jpeg"
                 alt="Ayan Sen"
                 fill
                 className="object-cover"
@@ -40,46 +41,44 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 md:py-24">
+      <section id="about" className="py-8 px-8 px-12 md:py-12 md:px-16">
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">What I Do</h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-lg mb-6">
-                I am a principal engineer with experience in building multiple products from inception to outcome,
-                setting the tech vision and strategy, and influencing executive leadership, and software teams.
-              </p>
-              <p className="text-lg mb-6">
-                My passion is designing multi-tenant, API-first platforms, building event-driven reactive systems, and
-                writing functional code. I have built extensible control planes, scalable distributed systems, streaming
-                and analytics platforms, business domains, identity and access management systems, and infrastructure
-                platforms.
-              </p>
-              <p className="text-lg mb-6">
-                I contribute to open-source projects and believe in collaborative and democratic software development.
-              </p>
-              <div className="mt-6 flex gap-4">
-                <Button variant="outline" asChild>
-                  <Link href="https://linkedin.com/in/ayansen89" target="_blank" rel="noopener noreferrer">
-                    <span className="i-lucide-linkedin mr-2 h-4 w-4" />
-                    LinkedIn
-                  </Link>
-                </Button>
-                <Button variant="outline" asChild>
-                  <a href="/resume.pdf" download>
-                    <Download className="h-4 w-4 mr-2" />
-                    Resume
-                  </a>
-                </Button>
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="space-y-8">
+              <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                <p className="text-base">
+                  I'm a Principal Engineer with a track record of bringing products from inception to impact—shaping technical vision,
+                  driving execution, and influencing both executive leadership and engineering teams.
+                  My core passion lies in architecting multi-tenant, API-first platforms and building reactive, 
+                  event-driven systems using functional programming paradigms.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                <p className="text-base">
+                  Over the years, I've built scalable distributed systems, extensible control planes, streaming analytics platforms, 
+                  business-critical domain models, IAM frameworks, and cloud-native infrastructure layers. 
+                  I contribute actively to open-source projects and believe in open, collaborative, and democratic approaches to software development.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                <p className="text-base">
+                  Lately, I've been working on agentic applications powered by large language models—exploring how autonomous 
+                  workflows can redefine software interaction. I'm deeply excited about the potential of this frontier to transform how we build and use intelligent systems.
+                </p>
               </div>
             </div>
-            <div className="relative h-80 rounded-lg overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Engineering Systems"
-                fill
-                className="object-cover"
-              />
+            <div className="sticky top-24">
+              <div className="relative h-[600px] rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/images/introduction.png"
+                  alt="Engineering Systems"
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

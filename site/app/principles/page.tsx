@@ -47,7 +47,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/consistency.png"
                   alt="Consistency Over Intensity"
                   fill
                   className="object-cover"
@@ -59,7 +59,7 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="images/positive-intent.jpg"
                   alt="Assume Positive Intent"
                   fill
                   className="object-cover"
@@ -132,7 +132,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/influence.jpg"
                   alt="Influence Over Enforce"
                   fill
                   className="object-cover"
@@ -144,7 +144,7 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/engineering.jpg"
                   alt="Perspective of Abundance"
                   fill
                   className="object-cover"
@@ -313,7 +313,7 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/think_big_and_small.png"
                   alt="Think Big and Small"
                   fill
                   className="object-cover"
@@ -383,7 +383,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/ "
                   alt="Actions Over Words"
                   fill
                   className="object-cover"
@@ -395,7 +395,7 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/compass_and_map.png"
                   alt="Hold On Tightly, Let Go Lightly"
                   fill
                   className="object-cover"

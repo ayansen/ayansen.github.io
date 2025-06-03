@@ -8,15 +8,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-    ],
+    unoptimized: false
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/ayan-sen-website' : '',
   trailingSlash: true,
 }
 

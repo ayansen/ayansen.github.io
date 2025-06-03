@@ -15,10 +15,10 @@ export default function Experience() {
             <div className="bg-background rounded-lg p-6 shadow-sm">
               <div className="flex flex-col md:flex-row justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold">Executive Director, Sr Principal Software Engineer</h3>
+                  <h3 className="text-2xl font-bold">JPMorgan Chase & Co.</h3>
                   <div className="flex items-center text-muted-foreground mt-1">
                     <Building className="h-4 w-4 mr-2" />
-                    <span>JPMorgan Chase & Co.</span>
+                    <span>Executive Director, Sr Principal Software Engineer</span>
                   </div>
                 </div>
                 <div className="flex items-center text-muted-foreground mt-2 md:mt-0">
@@ -26,30 +26,24 @@ export default function Experience() {
                   <span>Aug 2023 - Present · 1 yr 10 mos</span>
                 </div>
               </div>
-              <p className="text-muted-foreground mb-4">Seattle, Washington, United States · Hybrid</p>
               <div className="space-y-4">
-                <p>Part of the Core Platform Engineering Team, building out the API Management Platform</p>
 
                 <div className="mt-6 border-l-4 border-primary pl-4 py-2">
                   <h4 className="text-xl font-semibold">API Marketplace</h4>
-                  <p className="text-muted-foreground mb-2">Aug 2023 - Present</p>
+                  <p className="text-muted-foreground mb-2">Executive Director, Sr Principal Software Engineer | Seattle, Washington, United States | Aug 2023 - Present </p>
                   <p className="mb-2">
                     Led the design and expansion of an enterprise-wide API Marketplace at JPMorgan Chase to enable
                     seamless publishing, discovery, subscription, and observability of both internal and external APIs.
                   </p>
                   <ul className="list-disc pl-5 space-y-1 mt-2">
                     <li>
-                      Streamlined API lifecycle management, enforced security and compliance standards, and enhanced
-                      reusability across business units
+                      Served as a Senior Individual Contributor on API Marketplace, providing technical direction and guidance to over 100 engineers.
                     </li>
                     <li>
-                      Implemented automated onboarding workflows, role-based access controls, and detailed usage
-                      analytics
+                      Set up the engineering culture to foster a culture of API-first architecture across the team and collaborate using design documents and contract reviews.
                     </li>
-                    <li>Integrated with governance frameworks to ensure regulatory adherence</li>
                     <li>
-                      Accelerated development velocity and fostered a culture of API-first architecture across the
-                      organization
+                      Led the design and development of the API Marketplace product, delivering over 15 services and agentic experiences spanning identity, analytics and intelligence, user experience, API gateway, lifecycle management, and governance controls
                     </li>
                   </ul>
                 </div>
@@ -84,9 +78,9 @@ export default function Experience() {
               <div className="space-y-8 mt-4">
                 {/* Principal Role */}
                 <div className="border-l-4 border-primary pl-4">
-                  <h4 className="text-xl font-semibold">Principal Software Engineer</h4>
+                  <h4 className="text-xl font-semibold">Platform Architecture </h4>
                   <p className="text-muted-foreground mb-2">
-                    Jul 2020 - Aug 2023 · 3 yrs 2 mos | Seattle, Washington, United States
+                    Principal Software Engineer | Seattle, Washington, United States  | Jul 2020 - Aug 2023 · 3 yrs 2 mos
                   </p>
                   <div className="space-y-2">
                     <p>
@@ -107,8 +101,8 @@ export default function Experience() {
 
                 {/* Senior SDE Role 1 */}
                 <div className="border-l-4 border-primary pl-4">
-                  <h4 className="text-xl font-semibold">Senior Software Development Engineer</h4>
-                  <p className="text-muted-foreground mb-2">Sep 2019 - Jul 2020 · 11 mos | Greater Seattle Area</p>
+                  <h4 className="text-xl font-semibold">Trips</h4>
+                  <p className="text-muted-foreground mb-2">Senior Software Development Engineer | Greater Seattle Area | Sep 2019 - Jul 2020 · 11 mos</p>
                   <div className="space-y-2">
                     <p>
                       <strong>Connected Trips - Trips Domain:</strong> Designed and developed the trips domain, a
@@ -125,8 +119,8 @@ export default function Experience() {
 
                 {/* Senior SDE Role 2 */}
                 <div className="border-l-4 border-primary pl-4">
-                  <h4 className="text-xl font-semibold">Senior Software Development Engineer</h4>
-                  <p className="text-muted-foreground mb-2">Sep 2017 - Sep 2019 · 2 yrs 1 mo | Gurgaon, India</p>
+                  <h4 className="text-xl font-semibold">Brand Expedia -  Platform</h4>
+                  <p className="text-muted-foreground mb-2">Senior Software Development Engineer | December 2012 - Sep 2019 · 6 yrs 9 mo | Gurgaon, India</p>
                   <div className="space-y-2">
                     <p>Focused on Distributed Systems and Data Streaming</p>
                     <p className="mt-2">
@@ -152,33 +146,64 @@ export default function Experience() {
               </div>
             </div>
 
+            {/* LifeLyk Role */}
+            <div className="bg-background rounded-lg p-6 shadow-sm">
+              <div className="flex flex-col md:flex-row justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-bold">Lifelyk</h3>
+                  <div className="flex items-center text-muted-foreground mt-1">
+                    <Building className="h-4 w-4 mr-2" />
+                    <span>Founding Engineer</span>
+                  </div>
+                  <div className="border-l-4 border-primary pl-4">
+                    <h4 className="text-xl font-semibold">Lifelyk</h4>
+                    <p className="text-muted-foreground mb-2">Founding Engineer | Bangalore, India | December 2011 - Dec 2012 · 1 yr </p>
+                    <div className="space-y-2">
+                      <p>
+                        As the founder of Lifelyk (now sunset), I led the end-to-end design and development of a platform that connected photographers and artists with global audiences.
+                        Built from the ground up with another engineer, Lifelyk enabled creators to sell high-quality photographs and paintings, build a following, and monetize their work.
+                        I defined the technical architecture, implemented core marketplace features, and shaped the product vision from concept to launch.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">System Design</span>
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">Ownership</span>
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">Problem Solving</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* HPE Role */}
             <div className="bg-background rounded-lg p-6 shadow-sm">
               <div className="flex flex-col md:flex-row justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold">Systems Software Engineer</h3>
+                  <h3 className="text-2xl font-bold">Hewlett Packard Enterprise</h3>
                   <div className="flex items-center text-muted-foreground mt-1">
                     <Building className="h-4 w-4 mr-2" />
-                    <span>Hewlett Packard Enterprise</span>
+                    <span>Systems Software Engineer</span>
+                  </div>
+                  <div className="border-l-4 border-primary pl-4">
+                    <h4 className="text-xl font-semibold">ePrint Enterprise</h4>
+                    <p className="text-muted-foreground mb-2">Systems Software Engineer | Bangalore, India | Aug 2011 - Dec 2012 · 1 yr 5 mos</p>
+                    <div className="space-y-2">
+                      <p>
+                        Part of the Enterprise ePrint team working on mobile printing solutions using Microsoft Dot Net (C#)
+                        and C++
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">C#</span>
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">C++</span>
+                    <span className="px-2 py-1 bg-muted rounded-md text-xs">.NET</span>
                   </div>
                 </div>
-                <div className="flex items-center text-muted-foreground mt-2 md:mt-0">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  <span>Aug 2011 - Dec 2012 · 1 yr 5 mos</span>
-                </div>
               </div>
-              <p className="text-muted-foreground mb-4">Bangalore</p>
-              <div className="space-y-2">
-                <p>
-                  Part of the Enterprise ePrint team working on mobile printing solutions using Microsoft Dot Net (C#)
-                  and C++
-                </p>
-                <div className="flex flex-wrap gap-2 mt-4">
-                  <span className="px-2 py-1 bg-muted rounded-md text-xs">C#</span>
-                  <span className="px-2 py-1 bg-muted rounded-md text-xs">C++</span>
-                  <span className="px-2 py-1 bg-muted rounded-md text-xs">.NET</span>
-                </div>
-              </div>
+
             </div>
           </div>
 
@@ -193,9 +218,7 @@ export default function Experience() {
                 </div>
               </div>
               <p>
-                Activities and societies: Training Placement Representative, Member of the university team in soccer,
-                cricket and table tennis.
-              </p>
+              I earned a Bachelor’s degree in Computer Science and Engineering, where I completed a comprehensive curriculum covering core subjects such as Algorithms, Data Structures, Compiler Design, Operating Systems, and Computer Networks, along with foundational engineering courses over four years.              </p>
             </div>
           </div>
 
@@ -211,7 +234,7 @@ export default function Experience() {
                 <div>
                   <Button variant="outline" size="sm" asChild>
                     <Link
-                      href="https://medium.com/expedia-group-tech/configuration-management-at-expediagroup-4b5a76ce0e5d"
+                      href="https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -232,17 +255,13 @@ export default function Experience() {
                 <h4 className="text-xl font-bold mb-2">API Marketplace</h4>
                 <p className="text-muted-foreground mb-4">Aug 2023 - Present | JPMorgan Chase & Co.</p>
                 <p className="mb-2">
-                  An enterprise-wide platform enabling seamless publishing, discovery, subscription, and observability
-                  of both internal and external APIs.
+                  An enterprise-wide platform that simplifies the publishing, discovery, subscription, and observability of internal and external APIs.
+                  It features AI-driven agentic experiences powered by LLMS(large language models) and MCP(model context protocol) servers, along with semantic search and summarization to enhance API understanding.
+                  A custom Envoy-based API Gateway meets platform-specific needs and integrates easily with standard gateways like Apigee and Kong via a flexible plug-in system.
+                  The platform supports the entire API lifecycle—from onboarding and versioning to retirement—while enforcing security, compliance, and governance.
+                  With role-based access, usage analytics, and deployment across cloud and on-premise environments, it ensures secure, consistent, and efficient API consumption across the organization.
                 </p>
-                <ul className="list-disc pl-5 space-y-1 mt-2 text-sm">
-                  <li>Streamlined API lifecycle management with security and compliance standards</li>
-                  <li>Automated onboarding workflows and role-based access controls</li>
-                  <li>Integrated with governance frameworks for regulatory adherence</li>
-                  <li>Accelerated development velocity and fostered API-first architecture</li>
-                </ul>
               </div>
-
               <div className="bg-background rounded-lg p-6 shadow-sm">
                 <h4 className="text-xl font-bold mb-2">Open World</h4>
                 <p className="text-muted-foreground mb-4">Jan 2020 - Aug 2023 | Expedia Group</p>
@@ -250,6 +269,13 @@ export default function Experience() {
                   A purpose-built platform where any size partner can leverage and configure the products and services
                   they need to participate and succeed in the travel ecosystem.
                 </p>
+                <div className="mt-4"> 
+                  <Button variant="outline" size="sm" asChild>
+                    <Link href="https://partner.expediagroup.com/en-us/partnership" target="_blank"  rel="noopener noreferrer">
+                      Open Portal
+                    </Link>
+                  </Button>
+                </div>
               </div>
 
               <div className="bg-background rounded-lg p-6 shadow-sm">
@@ -285,6 +311,17 @@ export default function Experience() {
                   Developed a system for modeling partner-specific behavior as configurations, enabling flexible and
                   scalable customization of the platform for different partners.
                 </p>
+                <div className="mt-4"> 
+                  <Button variant="outline" size="sm" asChild>
+                    <Link
+                      href="https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Read Article
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ export default function Principles() {
     <SiteLayout>
       <section className="py-16 md:py-24">
         <div className="container">
-          <h1 className="text-3xl md:text-4xl font-bold mb-12 text-center">My Principles</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-12 text-center">What I believe In</h1>
 
           <div className="space-y-16">
             {/* Principle 1 */}
@@ -45,7 +45,7 @@ export default function Principles() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
+              <div className="relative h-64 md:h-96 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
                   src="/images/consistency.png"
                   alt="Consistency Over Intensity"
@@ -57,9 +57,9 @@ export default function Principles() {
 
             {/* Principle 2 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+              <div className="relative h-64 md:h-96 rounded-lg overflow-hidden">
                 <Image
-                  src="images/positive-intent.jpg"
+                  src="images/positive-intent.png"
                   alt="Assume Positive Intent"
                   fill
                   className="object-cover"
@@ -130,7 +130,7 @@ export default function Principles() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
+              <div className="relative h-64 md:h-96 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
                   src="/images/influence.jpg"
                   alt="Influence Over Enforce"
@@ -381,9 +381,9 @@ export default function Principles() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
+              <div className="relative h-96 md:h-96 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="/images/ "
+                  src="/images/action_over_words.png"
                   alt="Actions Over Words"
                   fill
                   className="object-cover"

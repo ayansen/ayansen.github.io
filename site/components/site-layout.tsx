@@ -25,7 +25,7 @@ export function SiteLayout({ children }: SiteLayoutProps) {
               Experience
             </Link>
             <Link href="/principles" className="text-muted-foreground hover:text-foreground transition-colors">
-              What I Believe In
+              Principles
             </Link>
           </nav>
           <div className="flex items-center gap-2">
@@ -65,17 +65,12 @@ export function SiteLayout({ children }: SiteLayoutProps) {
                 <Link href="/" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
                   Home
                 </Link>
-                <Link
-                  href="/experience"
-                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                >
+                <Link href="/experience" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
                   Experience
                 </Link>
                 <Link
-                  href="/principles"
-                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  What I Believe In
+                  href="/principles" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+                  Principles
                 </Link>
               </nav>
             </div>
@@ -100,12 +95,12 @@ export function SiteLayout({ children }: SiteLayoutProps) {
                 <div className="flex items-center gap-1">
                   <Github className="h-3 w-3 text-muted-foreground" />
                   <Link
-                    href="https://github.com/ayansengupta"
+                    href="https://github.com/ayansen"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    github.com/ayansengupta
+                    github.com/ayansen
                   </Link>
                 </div>
               </div>

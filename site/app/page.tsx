@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Download } from "lucide-react"
 import { SiteLayout } from "@/components/site-layout"
 
@@ -85,45 +85,69 @@ export default function Home() {
       </section>
 
       {/* Belief Summary Section */}
-      <section className="py-16 md:py-24 bg-muted">
+      <section className="py-8 md:py-12 bg-muted">
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">What I Believe In</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <Card>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
+            <Card className="text-center">
               <CardHeader>
-                <CardTitle>Consistency</CardTitle>
+                <CardTitle className="text-center">Choose Consistency Over Intensity</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p>Value steady action over perfect strategy—growth is compounded.</p>
-              </CardContent>
             </Card>
 
-            <Card>
+            <Card className="text-center">
               <CardHeader>
-                <CardTitle>Empathy</CardTitle>
+                <CardTitle className="text-centre">Assume Positive Intent</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p>Assume good intent—trust opens more than doubt ever could.</p>
-              </CardContent>
             </Card>
 
-            <Card>
+            <Card className="text-center">
               <CardHeader>
-                <CardTitle>Reflection</CardTitle>
+                <CardTitle className="text-center">Influence Over Enforce</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p>Respond with thought, not reflex. Insight follows pause.</p>
-              </CardContent>
             </Card>
 
-            <Card>
+            <Card className="text-center">
               <CardHeader>
-                <CardTitle>Adaptability</CardTitle>
+                <CardTitle className="text-center">Perspective of Abundance</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p>Challenge ritual. Let purpose—not history—shape the path.</p>
-              </CardContent>
             </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">Don't Confuse Motion for Progress</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">No Sacred Cats</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">Respond Over React</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">Think Big and Small</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">Actions Over Words</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-center">Hold On Tightly, Let Go Lightly</CardTitle>
+              </CardHeader>
+            </Card>                
           </div>
           <div className="text-center mt-12">
             <Button asChild>

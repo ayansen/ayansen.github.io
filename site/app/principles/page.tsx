@@ -12,8 +12,7 @@ export default function Principles() {
             {/* Principle 1 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">Choose Consistency Over Intensity</h3>
-                <p className="text-lg mb-4">Learning Compounds Like Interest</p>
+                <h3 className="text-2xl font-bold mb-4">Learning Compounds Like Interest</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -59,15 +58,14 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-96 rounded-lg overflow-hidden">
                 <Image
-                  src="images/positive-intent.png"
+                  src="/images/intent.png"
                   alt="Assume Positive Intent"
                   fill
                   className="object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Assume Positive Intent</h3>
-                <p className="text-lg mb-4">Build Trust Through Perspective</p>
+                <h3 className="text-2xl font-bold mb-4">Build Trust Through Perspective</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -353,8 +351,7 @@ export default function Principles() {
             {/* Principle 9 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">Actions Over Words</h3>
-                <p className="text-lg mb-4">Demonstrate, Don't Declare</p>
+              <h3 className="text-2xl font-bold mb-4">Demonstrate, Don't Declare</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>

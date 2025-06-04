@@ -91,61 +91,61 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Choose Consistency Over Intensity</CardTitle>
+                <CardTitle className="text-center font-normal">Choose Consistency Over Intensity</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-centre">Assume Positive Intent</CardTitle>
+                <CardTitle className="text-center font-normal">Assume Positive Intent</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Influence Over Enforce</CardTitle>
+                <CardTitle className="text-center font-normal">Influence Over Enforce</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Perspective of Abundance</CardTitle>
+                <CardTitle className="text-center font-normal">Perspective of Abundance</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Don't Confuse Motion for Progress</CardTitle>
+                <CardTitle className="text-center font-normal">Don't Confuse Motion for Progress</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">No Sacred Cats</CardTitle>
+                <CardTitle className="text-center font-normal">No Sacred Cats</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Respond Over React</CardTitle>
+                <CardTitle className="text-center font-normal">Respond Over React</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Think Big and Small</CardTitle>
+                <CardTitle className="text-center font-normal">Think Big and Small</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Actions Over Words</CardTitle>
+                <CardTitle className="text-center font-normal">Actions Over Words</CardTitle>
               </CardHeader>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-center">Hold On Tightly, Let Go Lightly</CardTitle>
+                <CardTitle className="text-center font-normal">Hold On Tightly, Let Go Lightly</CardTitle>
               </CardHeader>
             </Card>                
           </div>

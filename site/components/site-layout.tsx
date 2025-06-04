@@ -31,7 +31,7 @@ export function SiteLayout({ children }: SiteLayoutProps) {
           <div className="flex items-center gap-2">
             <ThemeToggle />
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com/ayansengupta" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/ayansen" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
@@ -114,7 +114,7 @@ export function SiteLayout({ children }: SiteLayoutProps) {
             </div>
             <div className="flex items-center gap-2">
               <Button variant="ghost" size="sm" asChild className="h-7 w-7 p-0">
-                <Link href="https://github.com/ayansengupta" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/ayansen" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                   <span className="sr-only">GitHub</span>
                 </Link>

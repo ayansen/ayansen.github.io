@@ -102,13 +102,12 @@ export default function Principles() {
             {/* Principle 3 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">Influence Over Enforce</h3>
-                <p className="text-lg mb-4">Foster Collaboration Through Understanding</p>
+                <h3 className="text-2xl font-bold mb-4">Great things are built together</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
                     <span>
-                      Lead With Reason: Persuasive ideas, not authority, cultivate true alignment and commitment.
+                      Lead With Reason: Enforcing without explanation can mean either you don't have a good explanation or you don't trust the intelligence of others to understand you
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -130,7 +129,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-96 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="/images/influence.jpg"
+                  src="/images/influence.png"
                   alt="Influence Over Enforce"
                   fill
                   className="object-cover"
@@ -142,15 +141,14 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/engineering.jpg"
+                  src="/images/abundance.png"
                   alt="Perspective of Abundance"
                   fill
                   className="object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Perspective of Abundance</h3>
-                <p className="text-lg mb-4">Opportunity Isn't Scarce—Vision Is</p>
+                <h3 className="text-2xl font-bold mb-4">Opportunity Isn't Scarce—Vision Is</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -185,8 +183,7 @@ export default function Principles() {
             {/* Principle 5 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">Don't Confuse Motion for Progress</h3>
-                <p className="text-lg mb-4">Activity Without Direction Is Just Noise</p>
+                <h3 className="text-2xl font-bold mb-4">Activity Without Direction Is Just Noise</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -213,7 +210,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/progress.png"
                   alt="Don't Confuse Motion for Progress"
                   fill
                   className="object-cover"
@@ -225,15 +222,14 @@ export default function Principles() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/cats.png"
                   alt="No Sacred Cats"
                   fill
                   className="object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">No Sacred Cats</h3>
-                <p className="text-lg mb-4">Challenge Tradition, Embrace Purpose</p>
+                <h3 className="text-2xl font-bold mb-4">Challenge Tradition, Embrace Purpose</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -266,8 +262,7 @@ export default function Principles() {
             {/* Principle 7 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">Respond Over React</h3>
-                <p className="text-lg mb-4">Engage Thoughtfully, Not Instinctively</p>
+                <h3 className="text-2xl font-bold mb-4">Engage Thoughtfully, Not Instinctively</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -299,7 +294,7 @@ export default function Principles() {
               </div>
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden order-1 md:order-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  src="/images/respond.png"
                   alt="Respond Over React"
                   fill
                   className="object-cover"

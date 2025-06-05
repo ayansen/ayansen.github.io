@@ -65,7 +65,7 @@ export default function Principles() {
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Assume everyone wants you to succeed</h3>
+                <h3 className="text-2xl font-bold mb-4">Build Trust Through Perspective</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
@@ -107,7 +107,7 @@ export default function Principles() {
                   <li className="flex items-start gap-2">
                     <div className="mt-1.5 w-2 h-2 rounded-full bg-primary flex-shrink-0"></div>
                     <span>
-                      Lead With Reason: Enforcing without explanation can mean either you don’t have a good explanation or you don’t trust the intelligence of others to understand you
+                      Lead With Reason: Enforcing without explanation can mean either you don't have a good explanation or you don't trust the intelligence of others to understand you
                     </span>
                   </li>
                   <li className="flex items-start gap-2">

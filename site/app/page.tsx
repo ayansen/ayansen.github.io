@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
               <Image
-                
+
                 src="/images/profile.jpeg"
                 alt="Ayan Sen"
                 fill
@@ -50,22 +50,22 @@ export default function Home() {
                 <p className="text-base">
                   I'm a Principal Engineer with a track record of bringing products from inception to impact—shaping technical vision,
                   driving execution, and influencing both executive leadership and engineering teams.
-                  My core passion lies in architecting multi-tenant, API-first platforms and building reactive, 
+                  My core passion lies in architecting multi-tenant, API-first platforms and building reactive,
                   event-driven systems using functional programming paradigms.
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Over the years, I've built scalable distributed systems, extensible control planes, streaming analytics platforms, 
-                  business-critical domain models, IAM frameworks, and cloud-native infrastructure layers. 
+                  Over the years, I've built scalable distributed systems, extensible control planes, streaming analytics platforms,
+                  business-critical domain models, IAM frameworks, and cloud-native infrastructure layers.
                   I contribute actively to open-source projects and believe in open, collaborative, and democratic approaches to software development.
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Lately, I've been working on agentic applications powered by large language models—exploring how autonomous 
+                  Lately, I've been working on agentic applications powered by large language models—exploring how autonomous
                   workflows can redefine software interaction. I'm deeply excited about the potential of this frontier to transform how we build and use intelligent systems.
                 </p>
               </div>
@@ -85,77 +85,25 @@ export default function Home() {
       </section>
 
       {/* Belief Summary Section */}
-      <section className="py-8 md:py-12 bg-muted">
+      <section className="py-4 md:py-6 bg-muted">
         <div className="container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">What I Believe In</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Choose Consistency Over Intensity</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Assume Positive Intent</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Influence Over Enforce</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Perspective of Abundance</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Don't Confuse Motion for Progress</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">No Sacred Cats</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Respond Over React</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Think Big and Small</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Actions Over Words</CardTitle>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="text-center font-normal">Hold On Tightly, Let Go Lightly</CardTitle>
-              </CardHeader>
-            </Card>                
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I Believe In</h2>
+          <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+            <p className="text-base">
+              I believe in a few core principles that guide every decision I make.
+              I value consistency over intensity, assume positive intent, and prefer influence over enforcement.
+              I believe in abundance, prioritize real progress over busywork, and question outdated norms.
+              I aim to respond, not react; think big and small; act more than speak; and commit deeply without attachment.
+              These principles help me stay grounded, intentional, and aligned with what truly matters.
+            </p>
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-4">
             <Button asChild>
               <Link href="/principles">View All Principles</Link>
             </Button>
           </div>
         </div>
       </section>
-    </SiteLayout>
+    </SiteLayout >
   )
 }

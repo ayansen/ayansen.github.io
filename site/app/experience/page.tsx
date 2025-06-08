@@ -43,7 +43,7 @@ export default function Experience() {
                       Established API-first architecture culture through design documents and contract reviews.
                     </li>
                     <li>
-                      Led development of 15+ services covering identity, analytics, user experience, API gateway, API lifecycle and governance.
+                      Led development of 15+ services covering identity, analytics, user experience, API gateway, schema management and API governance.
                     </li>
                   </ul>
                 </div>

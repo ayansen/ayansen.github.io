@@ -48,25 +48,24 @@ export default function Home() {
             <div className="space-y-8">
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  I'm a Principal Engineer who transforms ideas into impactful products. I excel at technical vision,
-                  execution, and leadership. My expertise lies in designing complex platforms and writing clean code. I get a lot of joy seeing different pieces fit like a puzzle.
+                  I'm a Principal Engineer who transforms ideas into impactful products. I excel at product vision,
+                  execution and technical leadership. My expertise lies in designing complex platforms and writing clean code. 
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  I've built distributed systems, control planes, analytics platforms, business domains, Identity and Access Management Systems,
-                  and cloud infrastructure. I'm an active open-source contributor and advocate for collaborative,
-                  democratic software development. Currently, I'm building agentic applications powered by large language models. I'm excited about
-                  how autonomous workflows can transform how we build and use intelligent systems.
+                  I've built scalable distributed systems, intelligent, secure and multitenant control planes and various business domains related to travel, e-commerce and developer tools.
+                  I'm an active open-source contributor and advocate for collaborative, democratic software development. 
+                  Currently, I'm building agentic applications powered by large language models. 
+                  I'm excited about how autonomous workflows can transform how we build and use intelligent systems.
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Beyond code, I'm a curious mind who lives by the scientific method. I love understanding why things work the way they do.
-                  When I'm not coding or discussing science, you'll find me fixing things around the house, playing with my dog,
-                  or listening to my family share their stories and challenges.
+                  Beyond code, I'm a curious thinker guided by the scientific method. I'm always seeking to understand how and why things work.
+                  When I'm not deep in tech or geeking out over science, you'll find me fixing things around the house, enjoying the outdoors through sports, or listening closely as my family shares their stories and challenges..
                 </p>
               </div>
             </div>
@@ -90,7 +89,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I Believe In</h2>
           <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
             <p className="text-base">
-              I follow core principles that guide my decisions: consistency over intensity, positive intent,
+              I follow my core principles that guide my decisions: consistency over intensity, positive intent,
               influence over enforcement, abundance mindset, real progress over busywork, and questioning outdated norms.
               I respond rather than react, think big and small, act more than speak, and commit deeply without attachment.
               These principles keep me grounded and focused on what matters.

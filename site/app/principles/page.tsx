@@ -9,10 +9,10 @@ const principles = [
     image: "/images/consistency.png",
     imageAlt: "Consistency Over Intensity",
     points: [
-      "Power of Daily Habits: Engaging consistently, even at a minimal level, compounds over time to generate extraordinary expertise.",
-      "Avoid the Optimization Trap: Frequent shifting in pursuit of optimal strategies disrupts learning and delays mastery.",
-      "Build Momentum Through Repetition: Doing one thing regularly builds muscle memory, confidence, and foundational depth.",
-      "Mastery Is a Long Game: Excellence is rarely the result of a breakthrough; it's usually the product of consistent small gains.",
+      "Small daily steps compound into extraordinary results over time.",
+      "Focus on showing up regularly rather than occasional bursts of effort.",
+      "Build momentum through steady, sustainable progress.",
+      "Mastery comes from consistent practice, not occasional brilliance.",
     ],
   },
   {
@@ -21,10 +21,10 @@ const principles = [
     image: "/images/intent.png",
     imageAlt: "Assume Positive Intent",
     points: [
-      "Start With Trust: Believe that others mean well unless proven otherwise. It opens channels for honest collaboration.",
-      "Understand Before Judging: Harmful behavior often stems from misunderstanding or pressure—seek to understand motives.",
-      "Resolve Through Dialogue: Confront with curiosity. Work together on solutions rather than assigning blame.",
-      "Foster a Supportive Culture: Positive intent reduces defensiveness and encourages openness, fueling a resilient team.",
+      "Start with trust - believe others mean well until proven otherwise.",
+      "Seek to understand before making judgments.",
+      "Approach conflicts with curiosity, not blame.",
+      "Build a culture where people feel safe to be open and honest.",
     ],
   },
   {
@@ -33,10 +33,10 @@ const principles = [
     image: "/images/influence.png",
     imageAlt: "Influence Over Enforce",
     points: [
-      "Lead With Reason: Enforcing without explanation can mean either you don't have a good explanation or you don't trust the intelligence of others to understand you",
-      "Respect Intelligence: Explain decisions thoroughly—people rise to challenges when trusted with context.",
-      "Empower, Don't Impose: Co-creation breeds ownership; enforcement breeds resistance.",
-      "We &gt; I: Great outcomes emerge from synergy, not top-down directives.",
+      "Explain your reasoning - if you can't, reconsider your position.",
+      "Trust others' intelligence - explain decisions thoroughly.",
+      "Create ownership through collaboration, not imposition.",
+      "Achieve more together than any individual could alone.",
     ],
   },
   {
@@ -45,10 +45,10 @@ const principles = [
     image: "/images/abundance.png",
     imageAlt: "Perspective of Abundance",
     points: [
-      "Don't Play Zero Sum Games: Don't participate in activities where your winning depends on someone else losing.",
-      "Your Uniqueness is Value: Critical thinking and creativity differentiate you—there's always room for originality.",
-      "Seek New Frontiers: Crowded paths signal it's time to explore better, overlooked opportunities.",
-      "Amplify Others: Helping others grow doesn't diminish you—it expands the whole ecosystem.",
+      "Avoid zero-sum thinking - success isn't a limited resource.",
+      "Your unique perspective creates value that others can't replicate.",
+      "Look for opportunities others miss.",
+      "Help others grow - it expands possibilities for everyone.",
     ],
   },
   {
@@ -57,10 +57,10 @@ const principles = [
     image: "/images/progress.png",
     imageAlt: "Don't Confuse Motion for Progress",
     points: [
-      "Define Success Clearly: Without a destination, effort risks becoming wheel-spinning.",
-      "Busy ≠ Productive: Motion often looks impressive but doesn't always move you forward.",
-      "Evaluate Effort Impact: Regularly assess whether your actions are aligned with outcomes.",
-      "Prioritize Intentional Work: Deliberate, high-leverage tasks yield real progress over scattered activity.",
+      "Define clear goals - without direction, effort is wasted.",
+      "Being busy isn't the same as being productive.",
+      "Regularly check if your actions align with your goals.",
+      "Focus on high-impact work that moves you forward.",
     ],
   },
   {
@@ -69,10 +69,10 @@ const principles = [
     image: "/images/cats.png",
     imageAlt: "No Sacred Cats",
     points: [
-      "Rituals Need Reasons: Practices should serve a purpose—not persist just because they're familiar.",
-      "Interrogate the Why: If no one can explain a tradition's value, it may be time to rethink it.",
-      "Evolve With Context: What worked in the past might hinder progress today—adaptation is essential.",
-      "Value Over Habit: Retain rituals that deliver results, discard those that are inertia-driven.",
+      "Question traditions - keep what works, discard what doesn't.",
+      "If no one can explain why we do something, it's time to rethink it.",
+      "Adapt practices to current needs, not past conditions.",
+      "Value results over habits - change what isn't working.",
     ],
   },
   {
@@ -81,10 +81,10 @@ const principles = [
     image: "/images/respond.png",
     imageAlt: "Respond Over React",
     points: [
-      "Pause Before Action: Reactions are reflexive; responses are considered. Take a breath before you decide.",
-      "Choose Creativity Over Instinct: Instincts help us survive; critical thinking helps us thrive.",
-      "Use Explanatory Knowledge: Understanding a problem allows you to design a solution rather than escalate conflict.",
-      "Elevate Above Emotion: You're not your nervous system—conscious response is uniquely human.",
+      "Take a breath before acting - choose response over reaction.",
+      "Use critical thinking, not just instinct.",
+      "Understand problems before trying to solve them.",
+      "Rise above emotional impulses - think before you act.",
     ],
   },
   {
@@ -93,10 +93,10 @@ const principles = [
     image: "/images/think_big_and_small.png",
     imageAlt: "Think Big and Small",
     points: [
-      "Start With Vision: A compelling long-term goal offers direction and motivation.",
-      "Anchor With Small Wins: Daily achievements sustain momentum and reinforce the bigger picture.",
-      "Bridge the Gap: Turn ambitions into actionable steps—strategy connects dreams to execution.",
-      "Reflect and Re-align: Check often if your steps still lead toward your vision and adjust accordingly.",
+      "Have a clear vision of where you want to go.",
+      "Celebrate small wins that build momentum.",
+      "Break big goals into manageable steps.",
+      "Regularly check if your actions align with your vision.",
     ],
   },
   {
@@ -105,10 +105,10 @@ const principles = [
     image: "/images/action_over_words.png",
     imageAlt: "Actions Over Words",
     points: [
-      "Show, Don't Tell: Behavior reveals true priorities more clearly than statements ever could.",
-      "Build Trust Through Consistency: Reliable action creates credibility; promises alone create skepticism.",
-      "Lead By Example: Demonstrate the standard you expect—it's more powerful than any directive.",
-      "Value Results Over Intentions: Good intentions matter, but outcomes define impact.",
+      "Show, don't tell - actions reveal true priorities.",
+      "Build trust through consistent behavior.",
+      "Lead by example - demonstrate the standard you expect.",
+      "Focus on results, not just good intentions.",
     ],
   },
   {
@@ -117,10 +117,10 @@ const principles = [
     image: "/images/compass_and_map.png",
     imageAlt: "Hold On Tightly, Let Go Lightly",
     points: [
-      "Live With a Compass and a Map: Purpose gives direction (Map); principles guide your response (Compass). Trust the compass in conflict.",
-      "Purpose Is Powerful—And Dangerous: Deep belief in a goal can motivate you—or blind you. Stay aware.",
-      "Release Gracefully: Let go of goals when they no longer serve your growth or well-being.",
-      "Treasure the Journey: Even if the goal is lost, the learning and joy remain yours forever.",
+      "Use purpose as your guide, principles as your compass.",
+      "Stay aware of how purpose can both motivate and blind you.",
+      "Let go of goals that no longer serve you.",
+      "Value the journey as much as the destination.",
     ],
   },
 ]

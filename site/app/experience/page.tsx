@@ -32,18 +32,18 @@ export default function Experience() {
                   <h4 className="text-xl font-semibold">API Marketplace</h4>
                   <p className="text-muted-foreground mb-2">Executive Director, Sr Principal Software Engineer | Seattle, Washington, United States | Aug 2023 - Present </p>
                   <p className="mb-2">
-                    Led the design and expansion of an enterprise-wide API Marketplace at JPMorgan Chase to enable
-                    seamless publishing, discovery, subscription, and observability of both internal and external APIs.
+                    Leading the design and expansion of JPMorgan Chase's enterprise-wide API Marketplace. The platform enables
+                    seamless publishing, discovery, subscription, and monitoring of internal and external APIs.
                   </p>
                   <ul className="list-disc pl-5 space-y-1 mt-2">
                     <li>
-                      Served as a Senior Individual Contributor on API Marketplace, providing technical direction and guidance to over 100 engineers.
+                      Senior Individual Contributor providing technical direction to 100+ engineers.
                     </li>
                     <li>
-                      Set up the engineering culture to foster a culture of API-first architecture across the team and collaborate using design documents and contract reviews.
+                      Established API-first architecture culture through design documents and contract reviews.
                     </li>
                     <li>
-                      Led the design and development of the API Marketplace product, delivering over 15 services and agentic experiences spanning identity, analytics and intelligence, user experience, API gateway, lifecycle management, and governance controls
+                      Led development of 15+ services covering identity, analytics, user experience, API gateway, API lifecycle and governance.
                     </li>
                   </ul>
                 </div>
@@ -84,17 +84,16 @@ export default function Experience() {
                   </p>
                   <div className="space-y-2">
                     <p>
-                      Worked as a platform architect designing the control plane and identity domains, leading the
-                      Platform-as-a-Product tech vision partnering with product and engineering teams.
+                      Platform architect designing control plane and identity domains. Led Platform-as-a-Product vision
+                      in partnership with product and engineering teams.
                     </p>
                     <p className="mt-2">
-                      <strong>Open World Platform:</strong> Led the development of a purpose-built platform where
-                      partners of any size can leverage and configure the products and services they need to participate
-                      and succeed in the travel ecosystem.
+                      <strong>Open World Platform:</strong> Built a platform enabling partners of any size to configure
+                      and use the products and services they need to succeed in the travel ecosystem.
                     </p>
                     <p className="mt-2">
                       <strong>Configuration Management:</strong> Developed a system for modeling partner-specific
-                      behavior as configurations, which was featured in a publication on Expedia Group's tech blog.
+                      behavior as configurations, featured in Expedia Group's tech blog.
                     </p>
                   </div>
                 </div>
@@ -105,14 +104,13 @@ export default function Experience() {
                   <p className="text-muted-foreground mb-2">Senior Software Development Engineer | Greater Seattle Area | Sep 2019 - Jul 2020 · 11 mos</p>
                   <div className="space-y-2">
                     <p>
-                      <strong>Connected Trips - Trips Domain:</strong> Designed and developed the trips domain, a
-                      foundational capability established on the EG Travel Platform that groups travel items together as
-                      one trip, even when booked separately.
+                      <strong>Connected Trips - Trips Domain:</strong> Built the trips domain on the Expedia Group Travel Platform,
+                      enabling grouping of separately booked travel items into a single trip.
                     </p>
                     <ul className="list-disc pl-5 space-y-1 mt-2">
-                      <li>Led initiatives to build event-driven platforms to provide proactive customer service</li>
-                      <li>Led the platform for observability</li>
-                      <li>Mentored junior developers in the organization</li>
+                      <li>Built event-driven platforms for proactive customer service</li>
+                      <li>Led platform observability initiatives</li>
+                      <li>Mentored junior developers</li>
                     </ul>
                   </div>
                 </div>
@@ -124,9 +122,8 @@ export default function Experience() {
                   <div className="space-y-2">
                     <p>Focused on Distributed Systems and Data Streaming</p>
                     <p className="mt-2">
-                      <strong>Haystack:</strong> Contributed to a resilient, scalable tracing and analysis system.
-                      Haystack is an Expedia-backed open source distributed tracing project to facilitate detection and
-                      remediation of problems in microservice architectures.
+                      <strong>Haystack:</strong> Contributed to Haystack, an open-source distributed tracing project
+                      that helps detect and fix problems in microservice architectures.
                     </p>
                   </div>
                 </div>
@@ -160,9 +157,10 @@ export default function Experience() {
                     <p className="text-muted-foreground mb-2">Founding Engineer | Bangalore, India | December 2011 - Dec 2012 · 1 yr </p>
                     <div className="space-y-2">
                       <p>
-                        As the founder of Lifelyk (now sunset), I led the end-to-end design and development of a platform that connected photographers and artists with global audiences.
-                        Built from the ground up with another engineer, Lifelyk enabled creators to sell high-quality photographs and paintings, build a following, and monetize their work.
-                        I defined the technical architecture, implemented core marketplace features, and shaped the product vision from concept to launch.
+                        Founded Lifelyk (now sunset), a platform connecting photographers and artists with global audiences.
+                        Built the platform from scratch with another engineer, enabling creators to sell artwork, build
+                        a following, and monetize their work. Led technical architecture, core marketplace features,
+                        and product vision from concept to launch.
                       </p>
                     </div>
                   </div>
@@ -190,8 +188,7 @@ export default function Experience() {
                     <p className="text-muted-foreground mb-2">Systems Software Engineer | Bangalore, India | Aug 2011 - Dec 2012 · 1 yr 5 mos</p>
                     <div className="space-y-2">
                       <p>
-                        Part of the Enterprise ePrint team working on mobile printing solutions using Microsoft Dot Net (C#)
-                        and C++
+                        Developed mobile printing solutions using Microsoft .NET (C#) and C++ for the Enterprise ePrint team.
                       </p>
                     </div>
                   </div>
@@ -218,7 +215,7 @@ export default function Experience() {
                 </div>
               </div>
               <p>
-              I earned a Bachelor’s degree in Computer Science and Engineering, where I completed a comprehensive curriculum covering core subjects such as Algorithms, Data Structures, Compiler Design, Operating Systems, and Computer Networks, along with foundational engineering courses over four years.              </p>
+              I earned a Bachelor's degree in Computer Science and Engineering, where I completed a comprehensive curriculum covering core subjects such as Algorithms, Data Structures, Compiler Design, Operating Systems, and Computer Networks, along with foundational engineering courses over four years.              </p>
             </div>
           </div>
 

@@ -48,25 +48,25 @@ export default function Home() {
             <div className="space-y-8">
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  I'm a Principal Engineer with a track record of bringing products from inception to impact—shaping technical vision,
-                  driving execution, and influencing both executive leadership and engineering teams.
-                  My core passion lies in architecting multi-tenant, API-first platforms and building reactive,
-                  event-driven systems using functional programming paradigms.
+                  I'm a Principal Engineer who transforms ideas into impactful products. I excel at technical vision,
+                  execution, and leadership. My expertise lies in designing complex platforms and writing clean code. I get a lot of joy seeing different pieces fit like a puzzle.
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Over the years, I've built scalable distributed systems, extensible control planes, streaming analytics platforms,
-                  business-critical domain models, IAM frameworks, and cloud-native infrastructure layers.
-                  I contribute actively to open-source projects and believe in open, collaborative, and democratic approaches to software development.
+                  I've built distributed systems, control planes, analytics platforms, business domains, Identity and Access Management Systems,
+                  and cloud infrastructure. I'm an active open-source contributor and advocate for collaborative,
+                  democratic software development. Currently, I'm building agentic applications powered by large language models. I'm excited about
+                  how autonomous workflows can transform how we build and use intelligent systems.
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Lately, I've been working on agentic applications powered by large language models—exploring how autonomous
-                  workflows can redefine software interaction. I'm deeply excited about the potential of this frontier to transform how we build and use intelligent systems.
+                  Beyond code, I'm a curious mind who lives by the scientific method. I love understanding why things work the way they do.
+                  When I'm not coding or discussing science, you'll find me fixing things around the house, playing with my dog,
+                  or listening to my family share their stories and challenges.
                 </p>
               </div>
             </div>
@@ -90,11 +90,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I Believe In</h2>
           <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
             <p className="text-base">
-              I believe in a few core principles that guide every decision I make.
-              I value consistency over intensity, assume positive intent, and prefer influence over enforcement.
-              I believe in abundance, prioritize real progress over busywork, and question outdated norms.
-              I aim to respond, not react; think big and small; act more than speak; and commit deeply without attachment.
-              These principles help me stay grounded, intentional, and aligned with what truly matters.
+              I follow core principles that guide my decisions: consistency over intensity, positive intent,
+              influence over enforcement, abundance mindset, real progress over busywork, and questioning outdated norms.
+              I respond rather than react, think big and small, act more than speak, and commit deeply without attachment.
+              These principles keep me grounded and focused on what matters.
             </p>
           </div>
           <div className="text-center mt-4">

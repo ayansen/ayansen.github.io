@@ -1,6 +1,9 @@
+'use client'
+
 import Image from "next/image"
 import { SiteLayout } from "@/components/site-layout"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useAnalytics } from "@/hooks/useAnalytics"
 
 const principles = [
   {
@@ -126,6 +129,15 @@ const principles = [
 ]
 
 export default function Principles() {
+  const { trackEvent } = useAnalytics()
+
+  const handleTabChange = (value: string) => {
+    trackEvent('principle_view', {
+      principle_id: value,
+      principle_title: principles.find(p => p.id === value)?.title
+    })
+  }
+
   return (
     <SiteLayout>
       <section className="py-4 md:py-6">
@@ -133,14 +145,13 @@ export default function Principles() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I believe In</h1>
           <div className="p-6 rounded-lg bg-muted/50 mb-12 hover:bg-muted transition-colors">
             <p className="text-base">
-              I believe in a few core principles that guide every decision I make.
-              I value consistency over intensity, assume positive intent, and prefer influence over enforcement.
-              I believe in abundance, prioritize real progress over busywork, and question outdated norms.
-              I aim to respond, not react; think big and small; act more than speak; and commit deeply without attachment.
-              These principles help me stay grounded, intentional, and aligned with what truly matters.
+              I follow my core principles that guide my decisions: consistency over intensity, positive intent,
+              influence over enforcement, abundance mindset, real progress over busywork, and questioning outdated norms.
+              I respond rather than react, think big and small, act more than speak, and commit deeply without attachment.
+              These principles keep me grounded and focused on what matters.
             </p>
           </div>
-          <Tabs defaultValue={principles[0].id} className="w-11/12">
+          <Tabs defaultValue={principles[0].id} className="w-11/12" onValueChange={handleTabChange}>
             <div className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8">
               <TabsList className="flex flex-col h-fit gap-2 p-1">
                 {principles.map((principle) => (

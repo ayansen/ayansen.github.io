@@ -55,8 +55,7 @@ export function SiteLayout({ children }: SiteLayoutProps) {
             <div>
               <h3 className="text-sm font-semibold mb-2">About</h3>
               <p className="text-xs text-muted-foreground">
-                Principal engineer with experience in building multi-tenant, API-first platforms and event-driven
-                reactive systems.
+                Principal engineer with experience in turning ideas into real, useful products.
               </p>
             </div>
             <div>

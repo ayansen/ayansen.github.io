@@ -48,8 +48,9 @@ export default function Home() {
             <div className="space-y-8">
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  I'm a Principal Engineer who transforms ideas into impactful products. I excel at product vision,
-                  execution and technical leadership. My expertise lies in designing complex platforms and writing clean code. 
+                I’m a Principal Engineer who turns ideas into real, useful products.
+                I’m good at setting a clear vision and guiding teams to build things that work. 
+                I specialize in creating complex systems and writing clean code. 
                 </p>
               </div>
 
@@ -64,8 +65,8 @@ export default function Home() {
 
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  Beyond code, I'm a curious thinker guided by the scientific method. I'm always seeking to understand how and why things work.
-                  When I'm not deep in tech or geeking out over science, you'll find me fixing things around the house, enjoying the outdoors through sports, or listening closely as my family shares their stories and challenges..
+                Beyond coding, I’m a curious thinker who loves to understand how and why things work. I follow the scientific method in how I explore the world. 
+                When I’m not working on tech or geeking out on science, I enjoy fixing things at home, playing sports outside, or listening to my family’s stories and challenges.
                 </p>
               </div>
             </div>

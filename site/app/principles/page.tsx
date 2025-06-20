@@ -13,9 +13,9 @@ const principles = [
     imageAlt: "Consistency Over Intensity",
     points: [
       "Small daily steps compound into extraordinary results over time.",
-      "Focus on showing up regularly rather than occasional bursts of effort.",
-      "Build momentum through steady, sustainable progress.",
       "Mastery comes from consistent practice, not occasional brilliance.",
+      "The battle is always with your own mind. Win it!",
+      "Aim to be just a little better at it than you were yesterday."     
     ],
   },
   {
@@ -24,10 +24,9 @@ const principles = [
     image: "/images/intent.png",
     imageAlt: "Assume Positive Intent",
     points: [
-      "Start with trust - believe others mean well until proven otherwise.",
-      "Seek to understand before making judgments.",
-      "Approach conflicts with curiosity, not blame.",
-      "Build a culture where people feel safe to be open and honest.",
+      "No one sets out to harm you—unless they believe doing so will bring them some benefit.",
+      "Start with trust - believe others mean well until proven otherwise.",     
+      "Approach conflicts with curiosity instead of blame, and work together to find a better solution.",
     ],
   },
   {
@@ -36,10 +35,11 @@ const principles = [
     image: "/images/influence.png",
     imageAlt: "Influence Over Enforce",
     points: [
-      "Explain your reasoning - if you can't, reconsider your position.",
+      "Enforcing without explanation signals one of two things: either you lack a solid reason, or you don’t trust others to understand it.",
+      "Great things are built together. Embrace the mindset that we works better than me.",
       "Trust others' intelligence - explain decisions thoroughly.",
       "Create ownership through collaboration, not imposition.",
-      "Achieve more together than any individual could alone.",
+      
     ],
   },
   {
@@ -49,9 +49,9 @@ const principles = [
     imageAlt: "Perspective of Abundance",
     points: [
       "Avoid zero-sum thinking - success isn't a limited resource.",
-      "Your unique perspective creates value that others can't replicate.",
-      "Look for opportunities others miss.",
-      "Help others grow - it expands possibilities for everyone.",
+      "As long as you think critically, your personal experiences will shape a perspective that’s uniquely your own",
+      "Don’t play the status game—where your gain depends on someone else’s loss",
+      "If too many people are chasing a scarce resource, it’s time to look for a better one.",
     ],
   },
   {
@@ -60,10 +60,9 @@ const principles = [
     image: "/images/progress.png",
     imageAlt: "Don't Confuse Motion for Progress",
     points: [
-      "Define clear goals - without direction, effort is wasted.",
       "Being busy isn't the same as being productive.",
-      "Regularly check if your actions align with your goals.",
-      "Focus on high-impact work that moves you forward.",
+      "Define clear goals - without direction, effort is wasted.",     
+      "Define success for yourself and work towards it"
     ],
   },
   {
@@ -72,10 +71,9 @@ const principles = [
     image: "/images/cats.png",
     imageAlt: "No Sacred Cats",
     points: [
-      "Question traditions - keep what works, discard what doesn't.",
-      "If no one can explain why we do something, it's time to rethink it.",
+      "Humans naturally gravitate toward rituals and ceremonies—but they should serve a clear purpose.",
+      "If no one can explain why a ritual exists, it probably shouldn’t.",
       "Adapt practices to current needs, not past conditions.",
-      "Value results over habits - change what isn't working.",
     ],
   },
   {
@@ -84,10 +82,8 @@ const principles = [
     image: "/images/respond.png",
     imageAlt: "Respond Over React",
     points: [
-      "Take a breath before acting - choose response over reaction.",
-      "Use critical thinking, not just instinct.",
-      "Understand problems before trying to solve them.",
-      "Rise above emotional impulses - think before you act.",
+      "Evolution helped us survive on Earth; creativity will help us flourish.",
+      "When faced with a problem, don’t let your emotions take control. What sets humans apart from animals is our ability to reason—we have explanatory knowledge. Use it.",
     ],
   },
   {
@@ -96,10 +92,10 @@ const principles = [
     image: "/images/think_big_and_small.png",
     imageAlt: "Think Big and Small",
     points: [
+      "Vision provides direction, while progress fuels the motivation to reach it.",
       "Have a clear vision of where you want to go.",
-      "Celebrate small wins that build momentum.",
-      "Break big goals into manageable steps.",
-      "Regularly check if your actions align with your vision.",
+      "Break the vision into manageable steps.",
+      "Celebrate the wins on the way!",
     ],
   },
   {
@@ -108,10 +104,9 @@ const principles = [
     image: "/images/action_over_words.png",
     imageAlt: "Actions Over Words",
     points: [
-      "Show, don't tell - actions reveal true priorities.",
-      "Build trust through consistent behavior.",
-      "Lead by example - demonstrate the standard you expect.",
-      "Focus on results, not just good intentions.",
+      "Doing is the best way to learn",
+      "Actions reveal true priorities.",
+      "When trying to understand people, pay attention to the outcomes of their actions, not just their intentions.",
     ],
   },
   {
@@ -120,10 +115,10 @@ const principles = [
     image: "/images/compass_and_map.png",
     imageAlt: "Hold On Tightly, Let Go Lightly",
     points: [
-      "Use purpose as your guide, principles as your compass.",
-      "Stay aware of how purpose can both motivate and blind you.",
-      "Let go of goals that no longer serve you.",
-      "Value the journey as much as the destination.",
+      "Purpose is key to happiness and also to the greatest sorrows.",
+      "Let purpose guide you and principles be your compass. Carry both a Map and a Compass—the Map points to your destination, the Compass keeps you on course. When they conflict, follow the Compass.",
+      "Embrace the paradox: believe in the goal while it serves you, and when the time comes, be ready to let it go.",
+      "You may have to let go of the purpose, but no one can take away the learning and joy you gained on the journey."
     ],
   },
 ]
@@ -145,10 +140,9 @@ export default function Principles() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I believe In</h1>
           <div className="p-6 rounded-lg bg-muted/50 mb-12 hover:bg-muted transition-colors">
             <p className="text-base">
-              I follow my core principles that guide my decisions: consistency over intensity, positive intent,
-              influence over enforcement, abundance mindset, real progress over busywork, and questioning outdated norms.
-              I respond rather than react, think big and small, act more than speak, and commit deeply without attachment.
-              These principles keep me grounded and focused on what matters.
+            I follow a set of core principles that guide my decisions. 
+            Whenever I face a meaningful choice—whether it’s about work, relationships, or how I spend my time, money, or energy—I turn to these principles. 
+            They’re deeply personal, but I’m sharing them in the hope that they offer insight into how I think and make decisions.
             </p>
           </div>
           <Tabs defaultValue={principles[0].id} className="w-11/12" onValueChange={handleTabChange}>

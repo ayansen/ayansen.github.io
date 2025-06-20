@@ -88,12 +88,11 @@ export default function Home() {
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">What I Believe In</h2>
           <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
-            <p className="text-base">
-              I follow my core principles that guide my decisions: consistency over intensity, positive intent,
-              influence over enforcement, abundance mindset, real progress over busywork, and questioning outdated norms.
-              I respond rather than react, think big and small, act more than speak, and commit deeply without attachment.
-              These principles keep me grounded and focused on what matters.
-            </p>
+            <p className="text-base">  
+            I follow a set of core principles that guide my decisions. 
+            Whenever I face a meaningful choice—whether it’s about work, relationships, or how I spend my time, money, or energy—I turn to these principles. 
+            They’re deeply personal, but I’m sharing them in the hope that they offer insight into how I think and make decisions.
+           </p>
           </div>
           <div className="text-center mt-4">
             <Button asChild>

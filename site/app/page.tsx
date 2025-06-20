@@ -48,8 +48,9 @@ export default function Home() {
             <div className="space-y-8">
               <div className="p-6 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                 <p className="text-base">
-                  I'm a Principal Engineer who transforms ideas into impactful products. I excel at product vision,
-                  execution and technical leadership. My expertise lies in designing complex platforms and writing clean code. 
+                I’m a Principal Engineer who turns ideas into real, useful products.
+                I’m good at setting a clear vision and leading teams to build things that work. 
+                I specialize in designing complex systems and writing clean code. 
                 </p>
               </div>
 
